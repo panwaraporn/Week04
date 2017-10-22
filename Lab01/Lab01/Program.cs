@@ -6,7 +6,7 @@ namespace Lab01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("The value: {0}.", 500);
+            Console.WriteLine("The value: {0:C}.", 500);
         }
     }
 }
