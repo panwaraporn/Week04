@@ -6,7 +6,7 @@ namespace Lab01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("{0,-10:E3}", 12.3456789);
+            Console.WriteLine("{0,-10:x}", 65535);  // (x = lower case)
         }
     }
 }
