@@ -8,17 +8,15 @@ namespace Lab01
         {
             try
             {
-                Console.Write("Please enter value 1 :");
-                int val1 = Convert.ToInt32(Console.ReadLine());
-                Console.Write("Please enter value 2 :");
+                Console.Write("Name :");
+                char val1 = Convert.ToInt32(Console.ReadLine());
+                Console.Write("ID :");
                 int val2 = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Answer = " + (val1 + val2));
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Error : " + e.ToString());
-            }
+                Console.Write("GPA :");
+                float val3 = Convert.ToInt32(Console.ReadLine());
 
+            }
+            
         }
     }
 }
