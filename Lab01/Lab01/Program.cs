@@ -1,9 +1,13 @@
 ﻿using System;
-class Operators
+namespace RandomNumber
 {
-    static void Main()
+    class Program
     {
-        bool a = 4 > 5;
-        Console.WriteLine("{0}", a);
+        static void Main(string[] args)
+        {
+            Random random = new Random();
+            int randomNumber = random.Next(0, 100);
+            Console.WriteLine(randomNumber);
+        }
     }
 }
