@@ -1,20 +1,9 @@
 ﻿using System;
-
-namespace Lab01
+class Operators
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-
-           
-            {
-                Console.WriteLine("Data type : char");
-                Console.WriteLine("Size :" + sizeof(char));
-                Console.WriteLine("Minimum Value :" + (int)char.MinValue);
-                Console.WriteLine("Maximum Value :" + (int)char.MaxValue);
-
-            }
-        }
+        bool a = 4 > 5;
+        Console.WriteLine("{0}", a);
     }
 }
