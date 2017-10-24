@@ -9,10 +9,10 @@ namespace Lab01
 
            
             {
-                Console.WriteLine("Data type : char");
-                Console.WriteLine("Size :" + sizeof(char));
-                Console.WriteLine("Minimum Value :" + char.MinValue);
-                Console.WriteLine("Maximum Value :" + char.MaxValue);
+                Console.WriteLine("Data type : bool");
+                Console.WriteLine("Size :" + sizeof(bool));
+              //  Console.WriteLine("Minimum Value :" + char.MinValue);
+             //   Console.WriteLine("Maximum Value :" + char.MaxValue);
             }
         }
     }
