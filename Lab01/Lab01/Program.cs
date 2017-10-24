@@ -8,6 +8,7 @@ namespace RandomNumber
             Random random = new Random();
             int randomNumber = random.Next(0, 9);
             Console.WriteLine(randomNumber);
+
         }
     }
 }
