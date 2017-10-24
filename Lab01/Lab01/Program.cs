@@ -9,10 +9,10 @@ namespace Lab01
 
            
             {
-                Console.WriteLine("Data type : decimal");
-                Console.WriteLine("Size :" + sizeof(decimal));
-                Console.WriteLine("Minimum Value :" + decimal.MinValue);
-                Console.WriteLine("Maximum Value :" + decimal.MaxValue);
+                Console.WriteLine("Data type : long");
+                Console.WriteLine("Size :" + sizeof(long));
+                Console.WriteLine("Minimum Value :" + long.MinValue);
+                Console.WriteLine("Maximum Value :" + long.MaxValue);
             }
         }
     }
