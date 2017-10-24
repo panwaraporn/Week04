@@ -5,15 +5,20 @@ namespace thruthTable
     {
         static void Main(string[] args)
         {
-            bool A, Y;
-            Console.WriteLine(" Y = Not A ");
+            bool A, B, Y;
+            Console.WriteLine(" Y = A NAND B");
             Console.WriteLine("-----------------------");
-            Console.WriteLine(" A | Y");
+            Console.WriteLine(" A B\t| Y");
             Console.WriteLine("-----------------------");
-            A = false; Y = !A;
-            Console.WriteLine(" {0}\t| {1}", A, Y);
-            A = true; Y = !A;
-            Console.WriteLine(" {0}\t| {1}", A, Y);
+            A = false; B = false; Y = !(A & B);
+            Console.WriteLine(" {0}\t{1}\t| {2}", A, B, Y);
+            A = false; B = true; Y = !(A & B);
+            Console.WriteLine(" {0}\t{1}\t| {2}", A, B, Y);
+            A = true; B = false; Y = !(A & B);
+            Console.WriteLine(" {0}\t{1}\t| {2}", A, B, Y);
+            A = true; B = true; Y = !(A & B);
+            Console.WriteLine(" {0}\t{1}\t| {2}", A, B, Y);
+            Console.WriteLine("-----------------------");
         }
     }
 }
