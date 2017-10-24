@@ -5,9 +5,8 @@ namespace RandomNumber
     {
         static void Main(string[] args)
         {
-            Random random = new Random();
-            int randomNumber = random.Next(0, 9);
-            Console.WriteLine(randomNumber);
+            Console.Write("Your number key:");
+            int Num = Convert.ToInt32(Console.ReadLine());
 
         }
     }
