@@ -1,18 +1,24 @@
 ﻿using System;
-namespace RandomNumber
+namespace thruthTable
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Random random = new Random();
-            int randomNumber = random.Next(0, 9);
-            Console.WriteLine(randomNumber);
-            Console.Write("Your number key:");
-            int Num = Convert.ToInt32(Console.ReadLine());
-            bool a = Num > randomNumber;
-            Console.WriteLine("Truth is : {0} > {1} ", Num, randomNumber);
-            Console.WriteLine("Truth is : {0}", a);
+            bool A, B, Y;
+            Console.WriteLine("      Y = A AND B");
+            Console.WriteLine("-----------------------");
+            Console.WriteLine("   A      B\t|  Y");
+            Console.WriteLine("-----------------------");
+            A = false; B = false; Y = A & B;
+            Console.WriteLine(" {0}\t{1}\t| {2}", A, B, Y);
+            A = false; B = true; Y = A & B;
+            Console.WriteLine(" {0}\t{1}\t| {2}", A, B, Y);
+            A = true; B = false; Y = A & B;
+            Console.WriteLine(" {0}\t{1}\t| {2}", A, B, Y);
+            A = true; B = true; Y = A & B;
+            Console.WriteLine(" {0}\t{1}\t| {2}", A, B, Y);
+            Console.WriteLine("-----------------------");
         }
     }
 }
