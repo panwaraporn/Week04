@@ -9,10 +9,10 @@ namespace Lab01
 
            
             {
-                Console.WriteLine("Data type : ushort");
-                Console.WriteLine("Size :" + sizeof(ushort));
-                Console.WriteLine("Minimum Value :" + ushort.MinValue);
-                Console.WriteLine("Maximum Value :" + ushort.MaxValue);
+                Console.WriteLine("Data type : uint");
+                Console.WriteLine("Size :" + sizeof(uint));
+                Console.WriteLine("Minimum Value :" + uint.MinValue);
+                Console.WriteLine("Maximum Value :" + uint.MaxValue);
             }
         }
     }
