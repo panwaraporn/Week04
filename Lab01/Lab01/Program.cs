@@ -6,17 +6,15 @@ namespace Lab01
     {
         static void Main(string[] args)
         {
-            try
+
+           
             {
-                Console.Write("Name :");
-                char val1 = Convert.ToInt32(Console.ReadLine());
-                Console.Write("ID :");
-                int val2 = Convert.ToInt32(Console.ReadLine());
-                Console.Write("GPA :");
-                float val3 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Data type : int");
+                Console.WriteLine("Size :" + sizeof(int));
+                Console.WriteLine("Minimum Value :" + int.MinValue);
+                Console.WriteLine("Maximum Value :" + int.MaxValue);
 
             }
-            
         }
     }
 }
